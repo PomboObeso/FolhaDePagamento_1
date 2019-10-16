@@ -394,6 +394,7 @@ public class Main {
         System.out.println(">>>PAGAMENTOS EFETUADOS COM SUCESSO<<<");
         return;
     }
+    
     //Cria uma nova agenda segundo o tipo da folha
     private static int addAgenda (String[][] agenda, Scanner input, int i){
         System.out.println(">>>CRIAR NOVA AGENDA<<<");
@@ -440,9 +441,12 @@ public class Main {
             return false;
         }
     }
-
-
-
+    private static void printAgenda (String[][] agenda, int i){
+        int j;
+        for (j = 2; j < i; j++){
+            System.out.printf("[%d] %s\n", j, agenda[j][4]);
+        }
+    }
     private static void modAgenda (String[][] funcionario, String[][] agenda, int indiceAgenda, Scanner input){
         System.out.println(">>>ALTERAR AGENDA<<<");
         System.out.println("Digite o ID do funcionário");
