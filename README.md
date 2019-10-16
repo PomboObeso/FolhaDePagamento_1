@@ -1,4 +1,4 @@
-# Folha de Pagamentos
+# Folha de Pagamento - Sem OO / Projeto de Software 2019.2
 
 Projeto escrito no Intellij, compilado com Java 1.8.0
 
