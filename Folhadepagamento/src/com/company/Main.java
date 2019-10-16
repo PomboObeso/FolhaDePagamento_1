@@ -44,7 +44,7 @@ public class Main {
 
         int undo = 0;
         int redo = 0;
-
+//Funcionalidades postas em um menu
         while (true) {
             while (true) {
                 System.out.println("SELECIONE A OPERAÇÃO DESEJADA\n\n" +
