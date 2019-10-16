@@ -358,7 +358,7 @@ public class Main {
         }
 
     }
-
+    //Rodar a folha de pagamento
     private static void folha (String[][] funcionario, String[][] agenda, int indiceAgenda) {
         int i;
         double total;
@@ -394,7 +394,7 @@ public class Main {
         System.out.println(">>>PAGAMENTOS EFETUADOS COM SUCESSO<<<");
         return;
     }
-
+    //Cria uma nova agenda segundo o tipo da folha
     private static int addAgenda (String[][] agenda, Scanner input, int i){
         System.out.println(">>>CRIAR NOVA AGENDA<<<");
         System.out.println("Digite o tipo de agenda (mensal ou semanal)");
