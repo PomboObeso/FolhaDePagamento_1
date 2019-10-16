@@ -441,12 +441,7 @@ public class Main {
         }
     }
 
-    private static void printAgenda (String[][] agenda, int i){
-        int j;
-        for (j = 2; j < i; j++){
-            System.out.printf("[%d] %s\n", j, agenda[j][4]);
-        }
-    }
+
 
     private static void modAgenda (String[][] funcionario, String[][] agenda, int indiceAgenda, Scanner input){
         System.out.println(">>>ALTERAR AGENDA<<<");
