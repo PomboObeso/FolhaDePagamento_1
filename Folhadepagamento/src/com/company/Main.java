@@ -190,7 +190,7 @@ public class Main {
         }
         return;
     }
-
+//Função de adicionar funcionário no indice
     private static void addFunc(String[][] funcionario, Scanner input, int i) {
         System.out.println(">>>ADICIONAR EMPREGADO<<<\n");
         System.out.println("Digite o nome");
