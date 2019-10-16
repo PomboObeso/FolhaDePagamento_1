@@ -232,7 +232,7 @@ public class Main {
 
         return;
     }
-
+    // Remover funcionario segundo seu indice
     private static void remove(String[][] funcionario, Scanner input) {
         System.out.println("Digite o ID do funcionário");
         int i = Integer.parseInt(input.nextLine());
